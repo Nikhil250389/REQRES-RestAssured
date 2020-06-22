@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="reqresTest.CreateMultipleUsersTest">
+        <methods>
+          <include name="updateUser"/>
+          <include name="createUser"/>
+        </methods>
+      </class> <!-- reqresTest.CreateMultipleUsersTest -->
+      <class name="reqresTest.RegisterUserAndLoginTest">
+        <methods>
+          <include name="registerUser"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- reqresTest.RegisterUserAndLoginTest -->
+      <class name="reqresTest.DeleteUser">
+        <methods>
+          <include name="deleteUser"/>
+        </methods>
+      </class> <!-- reqresTest.DeleteUser -->
+      <class name="reqresTest.ModifyResponse">
+        <methods>
+          <include name="createUserAndModifyRespose"/>
+        </methods>
+      </class> <!-- reqresTest.ModifyResponse -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

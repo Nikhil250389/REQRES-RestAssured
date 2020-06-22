@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="basicAPI.Basic_POST" duration-ms="2022" started-at="2020-03-03T06:22:10Z" finished-at="2020-03-03T06:22:12Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="2022" started-at="2020-03-03T06:22:10Z" finished-at="2020-03-03T06:22:12Z">
+      <class name="basicAPI.Basic_POST">
+        <test-method status="PASS" signature="POST_Data()[pri:0, instance:basicAPI.Basic_POST@1324409e]" name="POST_Data" duration-ms="1998" started-at="2020-03-03T11:52:10Z" finished-at="2020-03-03T11:52:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- POST_Data -->
+      </class> <!-- basicAPI.Basic_POST -->
+    </test> <!-- Command line test -->
+  </suite> <!-- basicAPI.Basic_POST -->
+</testng-results>

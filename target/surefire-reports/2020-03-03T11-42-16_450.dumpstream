@@ -1,0 +1,4 @@
+# Created at 2020-03-03T11:42:17.419
+Boot Manifest-JAR contains absolute paths in classpath 'D:\Eclipse_Oxigen_workspace\REST_API_Framework\demo\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+

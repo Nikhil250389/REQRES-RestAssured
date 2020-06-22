@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="Demo.Basic_POST_XML"/>
+      <class name="Demo.Basic_Post_Delete"/>
+      <class name="REST.demo.SeleniumTes"/>
+      <class name="REST.demo.AppTest"/>
+      <class name="Test.PostAndDeleteData"/>
+      <class name="Test.SEt"/>
+      <class name="Test.Basic_Post_Delete"/>
+      <class name="Demo.StaticJsonPayLoad"/>
+      <class name="Demo.Basic_Post_Delete_XML"/>
+      <class name="Demo.Basic_POST"/>
+      <class name="JiraAPI.CreateIssue"/>
+      <class name="Demo.DynamicJson"/>
+      <class name="JiraAPI.JiraEndToEndFlow"/>
+      <class name="Demo.DynamicJson1"/>
+      <class name="JiraAPI.AddComment"/>
+      <class name="REST.demo.RestTest"/>
+      <class name="Demo.Basic_JsonTraverse"/>
+      <class name="Demo.Basic"/>
+      <class name="Demo.AddBook_MultipleSet"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

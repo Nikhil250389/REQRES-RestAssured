@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="14277" started-at="2020-06-22T11:52:17Z" finished-at="2020-06-22T11:52:31Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="14277" started-at="2020-06-22T11:52:17Z" finished-at="2020-06-22T11:52:31Z">
+      <class name="reqresTest.DeleteUser">
+        <test-method status="PASS" signature="deleteUser()[pri:0, instance:reqresTest.DeleteUser@598067a5]" name="deleteUser" duration-ms="1002" started-at="2020-06-22T11:52:27Z" finished-at="2020-06-22T11:52:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+      </class> <!-- reqresTest.DeleteUser -->
+      <class name="reqresTest.CreateMultipleUsersTest">
+        <test-method status="PASS" signature="createUser()[pri:0, instance:reqresTest.CreateMultipleUsersTest@31ef45e3]" name="createUser" duration-ms="6462" started-at="2020-06-22T11:52:17Z" finished-at="2020-06-22T11:52:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method status="PASS" signature="updateUser()[pri:0, instance:reqresTest.CreateMultipleUsersTest@31ef45e3]" name="updateUser" duration-ms="3554" started-at="2020-06-22T11:52:23Z" finished-at="2020-06-22T11:52:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUser -->
+      </class> <!-- reqresTest.CreateMultipleUsersTest -->
+      <class name="reqresTest.RegisterUserAndLoginTest">
+        <test-method status="PASS" signature="login()[pri:0, instance:reqresTest.RegisterUserAndLoginTest@14bf9759]" name="login" duration-ms="1019" started-at="2020-06-22T11:52:29Z" finished-at="2020-06-22T11:52:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="registerUser()[pri:0, instance:reqresTest.RegisterUserAndLoginTest@14bf9759]" name="registerUser" duration-ms="951" started-at="2020-06-22T11:52:30Z" finished-at="2020-06-22T11:52:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerUser -->
+      </class> <!-- reqresTest.RegisterUserAndLoginTest -->
+      <class name="reqresTest.ModifyResponse">
+        <test-method status="PASS" signature="createUserAndModifyRespose()[pri:0, instance:reqresTest.ModifyResponse@3c0ecd4b]" name="createUserAndModifyRespose" duration-ms="1244" started-at="2020-06-22T11:52:28Z" finished-at="2020-06-22T11:52:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserAndModifyRespose -->
+      </class> <!-- reqresTest.ModifyResponse -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
